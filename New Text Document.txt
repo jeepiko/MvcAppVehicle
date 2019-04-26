@@ -1,9 +1,0 @@
-https://www.youtube.com/watch?v=3foH9ETKF_k
-MvcEf6CrudV1
- Create new -- ASP.NET Web Applicton(.NET Framework)  --> MVC
-
- add to models New Item  data / ADO.NET Entity Data Model  
- EF Designer from database 
-
- Add to controllers --> controller  MVC 5 Controller With views using Entity Framework 
-Model class  User(myappname.models) 
