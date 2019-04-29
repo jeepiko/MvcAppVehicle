@@ -1,9 +1,55 @@
 https://www.youtube.com/watch?v=3foH9ETKF_k
-MvcEf6CrudV1
+MvcAppVehicle
+
+PIKOLAPTOP\SQLEXPRESS01
+VehicleBase
+
  Create new -- ASP.NET Web Applicton(.NET Framework)  --> MVC
 
  add to models New Item  data / ADO.NET Entity Data Model  
  EF Designer from database 
+ ADO.Net  Item name : ModelVehicle
+ Entity Data Model  : VehicleBaseContext <-- VehicleBaseEntities 
+ Model Namespace    : VehicleBaseModel
 
  Add to controllers --> controller  MVC 5 Controller With views using Entity Framework 
-Model class  User(myappname.models) 
+
+Model class: VehicleMake (MvcAppVehicle.Models)
+Data context class : VehicleBaseContext(MvcAppVehicle.Models)
+empty
+Contoller name : VehicleMakesController
+
+ Add to controllers --> controller  MVC 5 Controller With views using Entity Framework  
+Model class: VehicleModel (MvcAppVehicle.Models)
+Data context class : VehicleBaseContext(MvcAppVehicle.Models)
+empty
+Contoller name : VehicleModelsController
+
+RouteConfig
+       defaults: new { controller = "Home",         action = "Index", id = UrlParameter.Optional } --->
+ -->   defaults: new { controller = "VehicleMakes", action = "Index", id = UrlParameter.Optional }
+
+
+GitHub Deploy 
+Team Explorer, click Sync.
+Click the Publish to GitHub button.
+Enter a name and description for the repository on GitHub.
+jeepiko.pik@gmail.com
+https://github.com/jeepiko/MvcAppVehicle
+
+delete file - open file and option trash icon - delete 
+new file - upload file 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
